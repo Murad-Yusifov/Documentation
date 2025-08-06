@@ -1,0 +1,26 @@
+.btn {
+    font-size: 10px;
+    font-weight: 300;
+  padding: 10px 10px;
+  border: none;
+  background: white;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.btnContainer {
+   display: inline-block;
+  padding: 3px;
+  background: linear-gradient(to right, #ff4d4f, #e63946, #27ae60, #2ecc71, #1abc9c, #3498db, #2980b9, #f1c40f, #f39c12, #ffd700);
+  border-radius: 16px;
+}
+
+// .btn::after {
+//     position: inherit;
+//     top: 0;
+//     left: 0;
+//     content: "";
+//     width: 120%;
+//     z-index: -1;
+//     background: linear-gradient(to right, red, skyblue, purple, green, yellow);
+// }
