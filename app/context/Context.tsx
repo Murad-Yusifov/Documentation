@@ -31,7 +31,7 @@ useEffect(() => {
 }, []);
 
 
- useEffect(() => {
+ useEffect(()   => {
   sessionStorage.setItem('theme', theme.toString());
   sessionStorage.setItem('language', language);
 }, [theme, language]);

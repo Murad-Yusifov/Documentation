@@ -6,3 +6,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+@theme {
+    --color-darkMode: #000;
+    --color-dark: #000;
+
+    --color-light:#fff;
+    --color-lightMode:#fff;
+}
